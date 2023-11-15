@@ -16,10 +16,11 @@ body{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
 }
 body{
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Quicksand', sans-serif;
+   
+    
 }
 .color{
    
@@ -27,8 +28,8 @@ body{
 #img{
     
     position: relative;
-    top: 4rem;
-    width: 30%;
+    top: 5rem;
+    width: 50%;
     border-right: 10px solid #bb328d;
     border-bottom: 10px solid #bb328d;
     border-radius: 90%;
@@ -36,7 +37,7 @@ body{
 .favicon{
     background-color: #c29dc4;
   
-   
+   padding: 2rem;
    text-align: center;
 }
 .sociaux{
@@ -49,17 +50,22 @@ p{
 }
 .section{
     border: 15px solid red;
-    margin: auto;
+    
 }
 .corps-5{
   text-align: center;
     margin: auto;
 }
 #text{
+    position: relative;
 
+margin: auto;
 
 }
-
+p{
+ font-size: 1.1rem;
+ width: 350px;
+}
 .corps-5{
 
     position: relative;
@@ -72,7 +78,7 @@ h3{
     
 }
 h6{
-   
+   margin-bottom: 20px;
     font-weight: 700;
     font-size: 1rem;  
 }
@@ -83,4 +89,6 @@ h6{
     margin: 1rem;
     border-radius:2rem ;
     color: white;
+    width: 50%;
+    font-size: 1.2rem;
 }
